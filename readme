@@ -1,0 +1,7 @@
+generate_data.py: generate the data we need to test the model
+data_reader.py: read the data to feed the model
+ops.py: the function used in wavenet
+wave.py: the network of wavenet
+base_model.py: the father class of WaveNetModel, we use it to train and test the network
+we test using predict_incre() which implements fast wavenet algorithm
+pic.py: plot the figure of predict and label
